@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayşegül Nalkesen | Kayseri Üniversitesi Yazılım Mühendisliği</title>
+  <meta name="description" content="Ayşegül Nalkesen - Kayseri Üniversitesi Yazılım Mühendisliği öğrencisi, girişimci, Erasmus Pupil Quality Label sahibi ve Kick Boks Siyah Kuşak 1. Dan sporcusu.">
+  <meta name="keywords" content="Ayşegül Nalkesen, Kayseri Üniversitesi, Yazılım Mühendisliği, Erasmus Pupil Quality Label, Kick Boks Siyah Kuşak, Akıllı Gardırop, Girişimcilik">
+  <meta name="author" content="Ayşegül Nalkesen">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome İkonları -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Özel Stil Dosyası -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== 1. NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-tag">&lt;</span>Ayşegül<span class="logo-tag"> /&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link active">Ana Sayfa</a>
+        <a href="#about" class="nav-link">Hakkımda</a>
+        <a href="#experiences" class="nav-link">Zirveler & Başarılar</a>
+        <a href="#education" class="nav-link">Eğitim</a>
+        <a href="#skills" class="nav-link">Yetkinlikler</a>
+        <a href="#projects" class="nav-link">Projeler</a>
+        <a href="#contact" class="nav-link">İletişim</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Dark/Light Tema Butonu -->
+        <button class="theme-toggle-btn" id="themeToggle" title="Temayı Değiştir" aria-label="Temayı Değiştir">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <!-- Mobil Menü Butonu -->
+        <button class="menu-toggle-btn" id="menuToggle" aria-label="Menüyü Aç">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== 2. HERO (GİRİŞ) ==================== -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      
+      <!-- Hero Sol İçerik -->
+      <div class="hero-content">
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem;">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Kayseri Üniversitesi • Yazılım Mühendisliği</span>
+          </div>
+          <div class="hero-badge" style="background: rgba(239, 68, 68, 0.1); border-color: rgba(239, 68, 68, 0.3); color: #ef4444;">
+            <i class="fa-solid fa-medal"></i>
+            <span>Kick Boks Siyah Kuşak 1. Dan 🥋</span>
+          </div>
+        </div>
+
+        <h1 class="hero-title">
+          Merhaba, Ben <br>
+          <span class="gradient-text">Ayşegül Nalkesen</span>
+        </h1>
+
+        <div class="typewriter-wrapper">
+          <span id="typewriterText"></span>
+          <span class="cursor">|</span>
+        </div>
+
+        <p class="hero-description">
+          Lise yıllarımdan bu yana girişimcilik, Erasmus projeleri, sosyal sorumluluk ve 10 yılı aşkın sporcu disipliniyle (Kick Boks Siyah Kuşak 1. Dan) kendimi geliştirdim. 
+          Şimdi bu dinamizmi ve liderlik vizyonunu <strong>Kayseri Üniversitesi Yazılım Mühendisliği</strong> bölümünde teknolojiyle birleştiriyorum.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#experiences" class="btn btn-primary">
+            <i class="fa-solid fa-award"></i> Başarı & Zirvelerim
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            <i class="fa-solid fa-laptop-code"></i> Projelerim
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <span class="social-label">Bağlantılar:</span>
+          <a href="https://github.com/ghost-ayse" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ayşegül-yeter-nalkesen-93240b286/" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:aysenalkesen7@gmail.com" class="social-icon-link" title="E-posta">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Sağ: İnteraktif Kod Kartı -->
+      <div class="hero-visual">
+        <div class="code-card">
+          <div class="code-card-header">
+            <div class="window-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="code-filename"><i class="fa-brands fa-js" style="color: #f7df1e;"></i> aysegul.js</span>
+            <button class="copy-code-btn" id="copyCodeBtn" title="Kodu Kopyala">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+          
+          <div class="code-card-body">
+            <pre><code><span class="code-keyword">const</span> <span class="code-var">aysegul</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Ayşegül Nalkesen"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"Yazılım Mühendisliği 1. Sınıf"</span>,
+  <span class="code-prop">university</span>: <span class="code-string">"Kayseri Üniversitesi"</span>,
+  <span class="code-prop">sport</span>: <span class="code-string">"Kick Boks Siyah Kuşak 1. Dan 🥋 (10+ Yıl)"</span>,
+  <span class="code-prop">honors</span>: [
+    <span class="code-string">"Erasmus Pupil Quality Label 🇪🇺"</span>,
+    <span class="code-string">"Girişimcilik Kulübü Takım Kaptanlığı"</span>,
+    <span class="code-string">"Bilgi Yarışması 1.liği 🏆"</span>
+  ],
+  <span class="code-prop">projects</span>: [
+    <span class="code-string">"Akıllı Gardırop (Fikir Festivali)"</span>,
+    <span class="code-string">"Sosyal Girişimcilik (Kale Grubu)"</span>
+  ],
+  <span class="code-prop">vision</span>: <span class="code-string">"Mühendislik + Disiplin + Girişimcilik 🚀"</span>
+};</code></pre>
+          </div>
+
+          <div class="code-card-footer">
+            <img src="assets/avatar.svg" alt="Ayşegül Nalkesen" class="mini-avatar">
+            <div class="mini-meta">
+              <h4>Ayşegül Nalkesen</h4>
+              <p>Yazılım Mühendisi Adayı & Sporcu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 3. HAKKIMDA ==================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-user-graduate"></i> Vizyon & Hikayem</span>
+        <h2 class="section-title">Hakkımda</h2>
+        <p class="section-subtitle">Girişimcilik, sporcu disiplini, uluslararası projeler ve mühendislik tutkusu</p>
+      </div>
+
+      <div class="about-grid">
+        
+        <!-- Sol: Görsel & Rozet -->
+        <div class="about-image-card">
+          <div class="about-avatar-wrapper">
+            <img src="assets/avatar.svg" alt="Ayşegül Nalkesen Portre" class="about-avatar">
+            <div class="about-badge-float">
+              <i class="fa-solid fa-trophy"></i>
+              <span>Siyah Kuşak 1. Dan & Erasmus QL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sağ: Metin & Hikaye -->
+        <div class="about-content">
+          <h3>Merhaba! Ben <span class="gradient-text">Ayşegül</span></h3>
+          <p>
+            Lise hayatım boyunca yalnızca derslerle sınırlı kalmayarak girişimcilik, sosyal sorumluluk, öğrenci toplulukları, akademik etkinlikler ve spor alanlarında daima en ön safta yer aldım.
+          </p>
+          <p>
+            İki farklı <strong>Erasmus projesinde</strong> sorumluluk üstlendim; bunlardan birinin doğrudan proje yazım sürecinde yer alırken diğerinin Türkiye tanıtım çalışmalarını yürüttüm ve uluslararası geçerliliği olan <strong>Erasmus Pupil Quality Label</strong> ile ödüllendirildim. 
+            <strong>Kale Grubu Sosyal Girişimcilik Zirvesi</strong>'nde Girişimcilik Kulübü Takım Kaptanı olarak takımımla birlikte iki özgün projede görev aldık ve okulumu Türkiye genelindeki öğrenci topluluklarında gururla temsil ettim.
+          </p>
+          <p>
+            Okulumda münazara ekibi kurarak Model United Nations (MUN) ve münazara organizasyonlarına öncülük ettim; 12. sınıfta ekibimle katıldığımız bilgi yarışmasında <strong>1.lik</strong> elde ettik. 
+            Bu çok yönlü deneyimlerimi şimdi <strong>Kayseri Üniversitesi Yazılım Mühendisliği</strong> lisans eğitimimde güçlü bir teknik zeminle birleştiriyorum.
+          </p>
+
+          <!-- 4 Vurgu Kartı -->
+          <div class="about-highlights">
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-earth-europe"></i></div>
+              <div class="highlight-info">
+                <h5>Erasmus</h5>
+                <p>2 Proje & Pupil Quality Label</p>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-medal"></i></div>
+              <div class="highlight-info">
+                <h5>Kick Boks</h5>
+                <p>10+ Yıl / Siyah Kuşak 1. Dan</p>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-lightbulb"></i></div>
+              <div class="highlight-info">
+                <h5>Girişimcilik</h5>
+                <p>Kulüp Kaptanı & 2 Projede Görev</p>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-trophy"></i></div>
+              <div class="highlight-info">
+                <h5>Başarı</h5>
+                <p>Bilgi Yarışması 1.liği</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Spor & Disiplin Özel Kutusu -->
+      <div class="sports-banner">
+        <div class="sports-badge-icon">
+          <i class="fa-solid fa-hand-fist"></i>
+        </div>
+        <div class="sports-text">
+          <h3>10 Yıllık Sporcu Disiplini: Kick Boks Siyah Kuşak 1. Dan 🥊</h3>
+          <p>
+            10 yaşımdan bu yana sürdürdüğüm kick boks sporu; bana yalnızca fiziksel dayanıklılık değil, zorlu problemler karşısında sarsılmaz bir soğukkanlılık, yüksek odaklanma, kriz yönetimi ve asla pes etmeme iradesi kazandırdı. Bu disiplin, yazılım mühendisliği eğitimimde ve geliştirdiğim her projede en büyük itici gücüm.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 4. ZİRVELER, FESTİVALLER & BAŞARILAR ==================== -->
+  <section class="education-section" id="experiences">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-compass"></i> Zirveler & Organizasyonlar</span>
+        <h2 class="section-title">Katıldığım Zirveler & Etkinlikler</h2>
+        <p class="section-subtitle">Türkiye'nin seçkin üniversiteleri ve inovasyon zirvelerindeki aktif rolüm</p>
+      </div>
+
+      <div class="events-grid">
+        
+        <!-- Kart 1: Kale Grubu -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-users-line"></i></div>
+          <div class="event-content">
+            <span class="event-org">Kale Grubu Sosyal Girişimcilik Zirvesi</span>
+            <h4>Girişimcilik Kulübü Takım Kaptanlığı</h4>
+            <p>
+              Girişimcilik Kulübü Takım Kaptanı olarak takımımla birlikte sosyal inovasyon odaklı 2 farklı projede aktif görev aldık ve okulumuzu zirvede başarıyla temsil ettik.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kart 2: Nişantaşı Fikir Festivali -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-shirt"></i></div>
+          <div class="event-content">
+            <span class="event-org">Nişantaşı Üniversitesi</span>
+            <h4>Fikir Festivali — "Akıllı Gardırop" Projesi</h4>
+            <p>
+              Teknoloji ve inovatif giyim yönetimini buluşturan "Akıllı Gardırop" projemle Fikir Festivali'ne katılarak fikir aşamasından prototip sunumuna kadar süreç yönettim.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kart 3: Boğaziçi Savunma Sanayi Zirvesi -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="event-content">
+            <span class="event-org">Boğaziçi Üniversitesi</span>
+            <h4>Savunma Sanayi Zirvesi</h4>
+            <p>
+              Milli teknoloji hamlesi, otonom sistemler, siber güvenlik ve kritik yazılım mimarileri üzerine Türkiye'nin önde gelen mühendis ve liderleriyle vizyon buluşması.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kart 4: İTÜ Girişimcilik Festivali -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-rocket"></i></div>
+          <div class="event-content">
+            <span class="event-org">İstanbul Teknik Üniversitesi (İTÜ)</span>
+            <h4>Girişimcilik Festivali</h4>
+            <p>
+              İnovatif startup ekosistemi, teknoloji odaklı iş modelleri ve yatırımcı süreçlerini yerinde deneyimleyerek girişimcilik vizyonumu pekiştirdim.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kart 5: Abdi İbrahim -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-dna"></i></div>
+          <div class="event-content">
+            <span class="event-org">Abdi İbrahim İlaç</span>
+            <h4>"Geleceği Keşfedenler" Programı</h4>
+            <p>
+              Genç yeteneklerin inovatif düşünme, bilim, teknoloji ve geleceğin çalışma modelleri üzerine yetiştirildiği prestijli gelişim programında aktif yer aldım.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kart 6: Galatasaray Üniversitesi Felsefe -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-brain"></i></div>
+          <div class="event-content">
+            <span class="event-org">Galatasaray Üniversitesi</span>
+            <h4>Felsefe ve Akademik Çalışmalar</h4>
+            <p>
+              Galatasaray Üniversitesi profesörlerinden doğrudan felsefe dersleri alarak mantıksal sorgulama, eleştirel düşünce ve etik kavramları üzerine derinlemesine akademik çalışmalar yürüttüm.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kart 7: Yaşar Acar Fen Lisesi -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-atom"></i></div>
+          <div class="event-content">
+            <span class="event-org">Yaşar Acar Fen Lisesi (11. Sınıf)</span>
+            <h4>Gençlik Festivali Katılımı</h4>
+            <p>
+              Fen bilimleri ve inovasyon atmosferinde akran öğrenmesi, bilimsel atölyeler ve gençlik projelerinde okulumu temsil ettim.
+            </p>
+          </div>
+        </div>
+
+        <!-- Kart 8: Münazara & MUN & Bilgi Yarışması -->
+        <div class="event-card">
+          <div class="event-badge-icon"><i class="fa-solid fa-comments"></i></div>
+          <div class="event-content">
+            <span class="event-org">Okul Toplulukları & Yarışmalar</span>
+            <h4>Münazara Ekibi Kuruculuğu, MUN & 1.lik Ödülü</h4>
+            <p>
+              Okulumda münazara kulübünü kurup sınıflar arası münazaralar ve Model United Nations (MUN) organizasyonlarını yönettim. 12. sınıfta ekibimle bilgi yarışmasında 1.lik kazandık.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 5. EĞİTİM & YOLCULUK ==================== -->
+  <section class="about-section" id="education" style="background: var(--bg-base);">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Akademik Yol Haritası</span>
+        <h2 class="section-title">Eğitim & Gelişim Süreci</h2>
+        <p class="section-subtitle">Yazılım mühendisliği eğitimim ve akademik temelim</p>
+      </div>
+
+      <div class="timeline">
+        
+        <!-- Aşama 1: Kayseri Üniversitesi -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-badge">Lisans Eğitimi</span>
+              <span class="timeline-period">2024 - Günümüz</span>
+            </div>
+            <h3 class="timeline-title">Kayseri Üniversitesi</h3>
+            <h4 class="timeline-subtitle">Mühendislik, Mimarlık ve Tasarım Fakültesi — Yazılım Mühendisliği</h4>
+            <p class="timeline-desc">
+              Algoritmalar ve programlama mantığı, veri yapıları, nesne yönelimli programlama ve yazılım mimarisi üzerine kapsamlı lisans müfredatı.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Yazılım Mühendisliği</span>
+              <span class="timeline-tag">Algoritma & Veri Yapıları</span>
+              <span class="timeline-tag">C / C++</span>
+              <span class="timeline-tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aşama 2: Lise ve Erasmus Başarıları -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <span class="timeline-badge">Lise & Proje Dönemi</span>
+              <span class="timeline-period">Lise Eğitimi</span>
+            </div>
+            <h3 class="timeline-title">Girişimcilik, MUN & Erasmus Başarıları</h3>
+            <h4 class="timeline-subtitle">Proje Yazımı, Liderlik & Sporcu Disiplini</h4>
+            <p class="timeline-desc">
+              Erasmus Pupil Quality Label kazanımı, okul münazara ekibinin kurulması, Kale Grubu Girişimcilik Kaptanlığı ve Kick Boks 1. Dan Siyah Kuşak derecesi.
+            </p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Erasmus Pupil Quality Label</span>
+              <span class="timeline-tag">Kick Boks Siyah Kuşak 1. Dan</span>
+              <span class="timeline-tag">Münazara & MUN</span>
+              <span class="timeline-tag">Girişimcilik Kaptanlığı</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 6. YETKİNLİKLER & BECERİLER ==================== -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-chart-line"></i> Çok Yönlü Yetkinlikler</span>
+        <h2 class="section-title">Yetenekler & Beceriler</h2>
+        <p class="section-subtitle">Yazılım araçları, sporcu disiplini ve liderlik kabiliyetleri</p>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Kategori 1: Yazılım & Programlama -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+            <h4>Yazılım & Teknolojiler</h4>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-brands fa-python" style="color: #38bdf8;"></i> Python</span>
+              <span class="skill-status status-active">Aktif Öğreniliyor</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-c" style="color: #818cf8;"></i> C / C++</span>
+              <span class="skill-status status-learning">Müfredat</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-brands fa-html5" style="color: #f97316;"></i> HTML5 & CSS3</span>
+              <span class="skill-status status-active">Modern Web</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-brands fa-git-alt" style="color: #f43f5e;"></i> Git & GitHub</span>
+              <span class="skill-status status-active">Versiyon Kontrol</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kategori 2: Liderlik & Proje Yönetimi -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <h4>Liderlik & Girişimcilik</h4>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-people-group" style="color: #10b981;"></i> Takım Kaptanlığı</span>
+              <span class="skill-status status-active">Girişimcilik Kulübü</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-file-pen" style="color: #38bdf8;"></i> Proje Yazımı</span>
+              <span class="skill-status status-active">Erasmus Süreçleri</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-comments" style="color: #f59e0b;"></i> MUN & Münazara</span>
+              <span class="skill-status status-active">Organizasyon</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-handshake" style="color: #a855f7;"></i> İletişim & Temsil</span>
+              <span class="skill-status status-active">Ulusal Düzey</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kategori 3: Disiplin & Kişisel Beceriler -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon"><i class="fa-solid fa-shield-heart"></i></div>
+            <h4>Disiplin & Soft Skills</h4>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-hand-fist" style="color: #ef4444;"></i> Sporcu Disiplini</span>
+              <span class="skill-status status-active">Siyah Kuşak 1. Dan</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-bolt" style="color: #facc15;"></i> Kriz & Stres Yönetimi</span>
+              <span class="skill-status status-active">10+ Yıl Spor</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-magnifying-glass" style="color: #06b6d4;"></i> Eleştirel Felsefi Düşünce</span>
+              <span class="skill-status status-learning">GSÜ Eğitimi</span>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name"><i class="fa-solid fa-bullseye" style="color: #ec4899;"></i> Hedef Odaklılık</span>
+              <span class="skill-status status-active">Yüksek İrade</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 7. PROJELER ==================== -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Üretimlerim</span>
+        <h2 class="section-title">Projeler & Çalışmalar</h2>
+        <p class="section-subtitle">Fikir festivalinden sosyal girişimciliğe ve yazılıma kadar geliştirdiğim projeler</p>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- Proje 1: Akıllı Gardırop -->
+        <div class="project-card">
+          <div class="project-preview">
+            <i class="fa-solid fa-microchip project-preview-icon" style="color: #06b6d4;"></i>
+            <span class="project-tag-float">Fikir Festivali</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Akıllı Gardırop Projesi</h3>
+            <p class="project-desc">
+              Nişantaşı Üniversitesi Fikir Festivali'ne katıldığım, giyim kombinasyonu ve gardırop yönetimini akıllı teknolojiyle birleştiren inovatif proje.
+            </p>
+            <div class="project-techs">
+              <span class="tech-badge">İnovasyon</span>
+              <span class="tech-badge">IoT / Fikir</span>
+              <span class="tech-badge">Proje Sunumu</span>
+            </div>
+            <div class="project-links">
+              <a href="#experiences" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-circle-info"></i> Detaylar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proje 2: Kale Grubu Sosyal Girişimcilik -->
+        <div class="project-card">
+          <div class="project-preview">
+            <i class="fa-solid fa-seedling project-preview-icon" style="color: #10b981;"></i>
+            <span class="project-tag-float">Sosyal İnovasyon</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sosyal Girişimcilik Projeleri</h3>
+            <p class="project-desc">
+              Kale Grubu Sosyal Girişimcilik Zirvesi kapsamında Girişimcilik Kulübü Kaptanı olarak takımımla birlikte 2 sürdürülebilir projede aktif görev aldık.
+            </p>
+            <div class="project-techs">
+              <span class="tech-badge">Liderlik</span>
+              <span class="tech-badge">Sosyal Girişim</span>
+              <span class="tech-badge">Takım Çalışması</span>
+            </div>
+            <div class="project-links">
+              <a href="#experiences" class="btn btn-secondary btn-sm">
+                <i class="fa-solid fa-users"></i> Takım Çalışması
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proje 3: Kişisel Portfolyo -->
+        <div class="project-card">
+          <div class="project-preview">
+            <i class="fa-solid fa-id-badge project-preview-icon" style="color: #8b5cf6;"></i>
+            <span class="project-tag-float">Tamamlandı</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Kişisel Portfolyo Sitesi</h3>
+            <p class="project-desc">
+              Kayseri Üniversitesi Yazılım Mühendisliği vizyonumu, sportif ve akademik başarılarımı sergileyen modern, responsive ve dark/light tema destekli web sitem.
+            </p>
+            <div class="project-techs">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#hero" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-eye"></i> İncele
+              </a>
+              <a href="https://github.com/ghost-ayse" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Kodlar
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 8. İLETİŞİM ==================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-envelope"></i> İletişim & Ağ</span>
+        <h2 class="section-title">İletişime Geçin</h2>
+        <p class="section-subtitle">Üniversite projeleri, girişimcilik ortaklıkları veya fikir alışverişi için bana ulaşabilirsiniz</p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Sol: İletişim Bilgileri -->
+        <div class="contact-info-card">
+          <h3>Birlikte Yeni Başarılar Üretelim! ☕</h3>
+          <p>
+            Yazılım mühendisliği eğitimim, girişimcilik projeleri ve üniversite topluluklarında aktif rol almaktan mutluluk duyarım. Her türlü proje iş birliği veya fikir paylaşımı için yazabilirsiniz.
+          </p>
+
+          <div class="contact-methods">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="contact-item-content">
+                <h5>E-posta</h5>
+                <a href="mailto:aysenalkesen7@gmail.com">aysenalkesen7@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-item-content">
+                <h5>Konum</h5>
+                <span>Kayseri / Türkiye</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-building-columns"></i>
+              </div>
+              <div class="contact-item-content">
+                <h5>Üniversite</h5>
+                <span>Kayseri Üniversitesi (15 Temmuz Yerleşkesi)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-socials">
+            <span class="social-label">Sosyal Medya:</span>
+            <a href="https://github.com/ghost-ayse" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ayşegül-yeter-nalkesen-93240b286/" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Sağ: İletişim Formu -->
+        <div class="contact-form-card">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="senderName" class="form-label">Adınız Soyadınız *</label>
+              <input type="text" id="senderName" class="form-control" placeholder="Örn: Ahmet Yılmaz" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderEmail" class="form-label">E-posta Adresiniz *</label>
+              <input type="email" id="senderEmail" class="form-control" placeholder="Örn: ahmet@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="emailSubject" class="form-label">Konu</label>
+              <input type="text" id="emailSubject" class="form-control" placeholder="Örn: Proje İş Birliği / Merhaba">
+            </div>
+
+            <div class="form-group">
+              <label for="messageBody" class="form-label">Mesajınız *</label>
+              <textarea id="messageBody" class="form-control" placeholder="Mesajınızı buraya yazabilirsiniz..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Mesajı Gönder
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== 9. FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-copy">
+        &copy; 2024 <strong>Ayşegül Nalkesen</strong> • Kayseri Üniversitesi Yazılım Mühendisliği
+      </div>
+      <div class="footer-note">
+        Disiplin, İrade ve <span class="heart">♥</span> ile tasarlandı 🥊🚀
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== 10. YUKARI ÇIK BUTONU ==================== -->
+  <button class="scroll-top-btn" id="scrollTopBtn" title="Yukarı Çık" aria-label="Yukarı Çık">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript Dosyası -->
+  <script src="js/main.js"></script>
+</body>
+</html>
